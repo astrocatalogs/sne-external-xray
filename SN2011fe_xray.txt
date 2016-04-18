@@ -1,12 +1,13 @@
-TSTART		TSTOP		Ei		Ef		Countrate		errC			Flux			errF			Model		NHint	ErrNHint		Parameter	Value		Err		Instrument      Ref
-(mjd)		(mjd)		(keV)	(keV)	(c/s)			(c/s)		(erg/s/cm2)	(erg/s/cm2)				(cm-2)	(cm-2)	
+TSTART		TSTOP		Ei		Ef		Countrate	errC		Flux			errFlux	UnabsFlux	errFUnabs	Model	NHMW	NHint	ErrNHint	Parameter	Value	Err		Instrument      Ref
+(mjd)		(mjd)		(keV)	(keV)	(c/s)		(c/s)						(erg/s/cm2)								(cm-2)	(cm-2)	
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-55797.922	55797.975	0.3		10		4e-3			-5			1.5e-13		-5			PL			0		0			PhIndex		2.			0		Swift-XRT	(1)
-55797.922	55860.075	0.3		10		2e-4			-5			7.4e-15		-5			PL			0		0			PhIndex		2.			0		Swift-XRT 	(1)				
-55800.443	55801.042	0.5		8.		1.1e-4			-5			7.7e-16		-5			PL			0		0			PhIndex		2.			0		Swift-XRT 	(1)			
+55797.922	55797.975	0.3		10		4e-3		-5		1.4e-13		-5		1.5e-13		-5			PL		1.8e20	0		0		PhIndex		2.		0		Swift-XRT	(1)
+55797.922	55860.075	0.3		10		2e-4		-5		6.9e-15		-5		7.4e-15		-5			PL		1.8e20	0		0		PhIndex		2.		0		Swift-XRT	(1)				
+55800.443	55801.042	0.5		8.		1.1e-4		-5		7.5e-16		-5		7.7e-16		-5			PL		1.8e20	0		0		PhIndex		2.		0		Chandra		(1)			
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 (1) Margutti et al., 2012, ApJ, 751, 134
+
+
 
 
